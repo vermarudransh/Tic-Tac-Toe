@@ -38,6 +38,7 @@ document.getElementById('closePopup').onclick = function() {
 const resetGame=() =>{
     grids.forEach((box) => {
         box.innerText="";
+        playerTurn="X"
     })
 }
 const gameWin = () =>{
